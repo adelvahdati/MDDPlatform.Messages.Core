@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>    
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>MDDPlatform.Messages.Core</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Adel Vahdati</Authors>
+    <Description>Library that can be used as a common package in CQRS, DDD, and messaging patterns.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTag>Message, Event, Command, CQRS</PackageTag>
+    <RepositoryUrl>https://github.com/adelvahdati/MDDPlatform.Messages.Core</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>

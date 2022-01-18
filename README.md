@@ -1,0 +1,1 @@
+This class library can be used as a common package in CQRS, DDD, and messaging patterns.
