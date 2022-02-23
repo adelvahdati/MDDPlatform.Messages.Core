@@ -6,4 +6,8 @@ namespace MDDPlatform.Messages.Queries
     {
 
     }
+    public interface IQuery<TResult> : IQuery 
+    {
+
+    }
 }

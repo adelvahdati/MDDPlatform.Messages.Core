@@ -8,7 +8,7 @@ namespace MDDPlatform.Messages.Dispatchers
     {
         Task HandleAsync(ICommand command);
         Task HandleAsync(IEvent @event);
-        Task<TResult> HandleAsync<TResult>(IQuery query);
+        Task<TResult> HandleAsync<TResult>(IQuery<TResult> query);
     }
 
 }
